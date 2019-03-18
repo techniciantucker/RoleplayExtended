@@ -1,0 +1,1 @@
+E:\RoleplayExtended\citizenfx\run.cmd +set sv_licenseKey f1kax5mt712h3ntjxhba9wv40ryxq3mo +exec E:\RoleplayExtended\server.cfg

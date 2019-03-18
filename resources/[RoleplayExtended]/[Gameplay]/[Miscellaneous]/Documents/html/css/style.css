@@ -1,0 +1,119 @@
+body, html {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Ubuntu', 'Helvetica Neue', sans-serif;
+    top: 0;
+    left: 0;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.button {
+    background: none;
+    outline: none;
+    border-radius: 2px;
+    padding: 8;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 3px;
+    border: 2px solid #455A64;
+    color: #455A64;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Ubuntu', 'Helvetica Neue', sans-serif;
+    opacity: 0.75;
+    transition: 0.3s;
+}
+
+.button:hover {
+    opacity: 1.0;
+    background: #455A64;
+    color: #FAFAFA;
+}
+
+#clipboard {
+    visibility: hidden;
+    position: absolute;
+    left: 32.5%;
+    top: 5%;
+    width: 35%;
+    height: 93%;
+    background: #F8F8F8;
+    border-radius: 10px;
+    border: solid 2px #455A64;
+    box-shadow: 0 1px 4px 0 rgba(12, 12, 13, 0.2), 0 0 0 1px rgba(0, 0, 0, 0.15);
+}
+
+#details {
+    position: absolute;
+    left: 10%;
+    width: 80%;
+    height: 4%;
+    border-left: 3px solid #455A64;
+    border-right: 3px solid #455A64;
+}
+
+#details #date {
+    font-family: 'Dancing Script', cursive;
+    font-size: 23px;
+    margin-top: 3px;
+    margin-left: 10px;
+}
+
+#section {
+    border: 2px solid #455A64;
+    background: #FFF;
+    width: 90%;
+    height: 88%;
+    margin-left: 5%;
+    margin-top: 5%;
+    border-radius: 5px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+#section::-webkit-scrollbar-track {
+	border-radius: 15px;
+}
+
+#section::-webkit-scrollbar {
+	width: 12px;
+}
+
+#section::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: #555;
+    margin-left: -5px;
+}
+
+#content {
+    width: 90%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    margin-left: 5%;
+    color: rgb(50, 50, 50);
+}
+
+#content #title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    margin-top: 10px;
+    border-bottom: 2px solid rgb(50, 50, 50)
+}
+
+#text {
+    width: 96%;
+    height: 100%;
+    margin-left: 2%;
+    word-wrap: break-word;
+    font-family: 'Roboto', sans-serif;
+}
+
+input {
+    border: none;
+    background: none;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(50, 50, 50)
+}

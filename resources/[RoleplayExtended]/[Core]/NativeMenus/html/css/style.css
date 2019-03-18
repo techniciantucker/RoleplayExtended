@@ -1,0 +1,95 @@
+body, html {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Ubuntu', 'Helvetica Neue', sans-serif;
+    top: 0;
+    left: 0;
+    padding: 0;
+    margin: 0;
+}
+
+#menu {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    width: 20%;
+    background: #F8F8F8;
+    border: 4px solid #333;
+}
+
+#menu-title {
+    margin-top: 0px;
+    padding-bottom: 10px;
+    background: url(../assets/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 4px solid #333;
+}
+
+#menu-title img {
+    margin-left: calc(50% - 87px)
+}
+
+#menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#menu ul li {
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+}
+
+#menu h1 {
+    color: #455A64;
+    text-align: center;
+    font-size: 23px;
+}
+
+#menu #category {
+    color: #455A64;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 5px;
+    padding-bottom: -20px;
+}
+
+#menu hr {
+    border: 1px solid #455A64;
+    width: 90%;
+    margin-top: -10px;
+    margin-left: 5%;
+}
+
+.menu-item {
+    width: 90%;
+    margin-top: -3%;
+    padding-bottom: 10%;
+    margin-left: 5%;
+    border: 2px solid #455A64;
+    color: #455A64;
+    transition: 0.5s;
+}
+
+.menu-item:hover {
+    background: #455A64;
+    color: #FAFAFA;
+}
+
+.menu-item-label {
+    margin: 0;
+    padding: 0;
+    float: left;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.menu-item-option {
+    margin: 0;
+    padding: 0;
+    float: right;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-right: 5px;
+}

@@ -1,0 +1,74 @@
+body, html {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Ubuntu', 'Helvetica Neue', sans-serif;
+    top: 0;
+    left: 0;
+    padding: 0;
+    margin: 0;
+}
+
+section {
+    visibility: hidden;
+    position: absolute;
+    width: 40%;
+    height: 36%;
+    left: 30%;
+    top: 10%;
+    border-radius: 5px;
+    border-top: 40px solid #455A64;
+    box-shadow: 0 1px 4px 0 rgba(12, 12, 13, 0.2), 0 0 0 1px rgba(0, 0, 0, 0.15);
+    background: #F8F8F8;
+    overflow: hidden;
+}
+
+section h1 {
+    text-align: center;
+    font-size: 40px;
+    color: #1b4a6b;
+}
+
+.button {
+    background: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 10;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 16px;
+    margin-left: calc(50% - 70px);
+    margin-bottom: 10px;
+    border: 2px solid #455A64;
+    color: #455A64;
+    opacity: 0.75;
+    transition: 0.3s;
+}
+
+.button:hover {
+    opacity: 1.0;
+    background: #455A64;
+    color: #FAFAFA; 
+}
+
+.form {
+    box-shadow: 0 1px 4px 0 rgba(12, 12, 13, 0.2), 0 0 0 1px rgba(0, 0, 0, 0.15);
+    width: calc(88%);
+    padding: 10px;
+    border-radius: 3px;
+    font-size: 22px;
+    border: 1px solid #F8F8F8;
+    margin-left: 60px;
+    margin-top: 5px;
+    outline-width: 0;
+    color: #333;
+}
+
+.form::placeholder {
+    color: #333;
+}
+
+.form:focus {
+    border: 1px solid #455A64;
+}
+
+#buttons {
+    margin-top: 15%;
+}
